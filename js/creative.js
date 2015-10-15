@@ -41,7 +41,7 @@
             top: 100
         }
     })
-
+	
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 

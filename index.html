@@ -34,7 +34,7 @@
 
 </head>
 
-<body id="page-top">
+<body id="home">
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -47,7 +47,7 @@
                     <span class="icon-bar"></span>
                 </button>
 				<img alt="logo" src="img/logo.png" class="navbar-brand page-scroll" />
-			    <a class="navbar-brand page-scroll" href="#page-top">Home</a>
+			    <a class="navbar-brand page-scroll" href="#home">Home</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -98,7 +98,7 @@
 			</div>
 
 			<div class="row">
-				<div class="col-sm-3">
+				<div class="col-sm-4">
 					<div class="iconbox wow slideInLeft">
 						<div class="iconbox-icon">
 							<span class="icon-magic-wand"></span>
@@ -112,8 +112,8 @@
 					</div>
 				</div>
 
-				<div class="col-sm-3">
-					<div class="iconbox wow slideInLeft">
+				<div class="col-sm-4">
+					<div class="iconbox wow fadeInUp">
 						<div class="iconbox-icon">
 							<span class="icon-puzzle"></span>
 						</div>
@@ -126,7 +126,7 @@
 					</div>
 				</div>
 				
-				<div class="col-sm-3">
+				<div class="col-sm-4">
 					<div class="iconbox wow slideInRight">
 						<div class="iconbox-icon">
 							<span class="icon-screen-desktop"></span>
@@ -140,21 +140,6 @@
 					</div>
 				</div>
 						
-				<div class="col-sm-3">
-
-					<div class="iconbox wow slideInRight">
-						<div class="iconbox-icon">
-							<span class="icon-badge"></span>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Branding</h3>
-							<div class="iconbox-desc">
-								Good things come to those who wait, but only the things left by those who hustle
-							</div>
-						</div>
-					</div>
-
-				</div>
 			
 			</div><!-- .row -->
 		</div><!-- .container -->
@@ -181,27 +166,21 @@
 
                     </div><!-- .row -->
 					
-					<div class="col-sm-6 col-md-3 text-center">
+					<div class="col-sm-6 col-md-4 text-center">
 						<span data-percent="80" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
                             <span class="percent">80</span>
                         </span>
 						<h3 class="text-center">Programming</h3>
 					</div>
-					<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="90" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">90</span>
+					<div class="col-sm-6 col-md-4 text-center">
+						<span data-percent="70" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
+                            <span class="percent">70</span>
                         </span>
 						<h3 class="text-center">Design</h3>
 					</div>
-					<div class="col-sm-6 col-md-3 text-center">
+					<div class="col-sm-6 col-md-4 text-center">
 						<span data-percent="85" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
                             <span class="percent">85</span>
-                        </span>
-						<h3 class="text-center">Marketing</h3>
-					</div>
-					<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="95" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">95</span>
                         </span>
 						<h3 class="text-center">UI / UX</h3>
 					</div>
@@ -317,23 +296,45 @@
             </div>
         </div>
     </section>
-
+	
     <section id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                <div class="form-section text-center pfblock-header wow fadeInUp">
+                    <h2 class="section-heading">Contact with me</h2>
+					<hr class="primary">
+						<p>No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people's eyes, to reveal the marvels around.</p>
+                    <form>
+						  <div class="field name-box">
+								<input type="text" id="name" placeholder="Who Are You?"/>
+								<label for="name">Name</label>
+								<!--<span class="ss-icon">check</span>-->
+						  </div>
+
+						  <div class="field email-box">
+								<input type="text" id="email" placeholder="name@email.com"/>
+								<label for="email">Email</label>
+								<!--<span class="ss-icon">check</span>-->
+						  </div>
+
+						  <div class="field msg-box">
+								<textarea id="msg" rows="4" placeholder="Your message goes here..."/></textarea>
+								<label for="msg">Msg</label>
+								<!--<span class="ss-icon">check</span>-->
+						  </div>
+						  <input class="button" type="submit" value="Send" />
+				  </form>
                 </div>
+				<!--
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x wow bounceIn"></i>
                     <p>099-930-81-86</p>
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@hotmail.com</a></p>
+                    <p><a >feedback@hotmail.com</a></p>
                 </div>
+				-->
             </div>
         </div>
     </section>
@@ -373,6 +374,8 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.fittext.js"></script>
     <script src="js/wow.min.js"></script>
+	<script src="js/jquery.easypiechart.js"></script>
+    <script src="js/waypoints.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>

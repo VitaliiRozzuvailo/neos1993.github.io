@@ -1,3 +1,4 @@
+
 html,
 body {
     width: 100%;
@@ -248,66 +249,6 @@ header .header-content .header-content-inner p {
     margin-bottom: 0;
 }
 
-.portfolio-box {
-    display: block;
-    position: relative;
-    margin: 0 auto;
-    max-width: 650px;
-}
-
-.portfolio-box .portfolio-box-caption {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    color: #fff;
-    opacity: 0;
-    background: rgba(240,95,64,.9);
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    transform: translateY(-50%);
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    padding: 0 15px;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 600;
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 18px;
-}
-
-.portfolio-box:hover .portfolio-box-caption {
-    opacity: 1;
-}
-
-@media(min-width:768px) {
-    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-        font-size: 16px;
-    }
-
-    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-        font-size: 22px;
-    }
-}
-
 .call-to-action h2 {
     margin: 0 auto 20px;
 }
@@ -488,6 +429,205 @@ body {
 	margin: 0 0 15px;
 	padding: 0;
 }
+/* ---------------------------------------------- /*
+ * Skills
+/* ---------------------------------------------- */
+
+.chart {
+    display: inline-block;
+    height: 140px;
+    margin: 50px 0;
+    position: relative;
+    text-align: center;
+    width: 140px;
+}
+.chart canvas {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.percent {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 140px;
+    z-index: 2;
+}
+.percent:after {
+    content: "%";
+    font-size: 50%;
+    margin-left: 0.1em;
+}
+/* ---------------------------------------------- /*
+ * Portfolio
+/* ---------------------------------------------- */
+.portfolio-box {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+.portfolio-box .portfolio-box-caption {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    background: rgba(240,95,64,.9);
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    padding: 0 15px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 18px;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+}
+
+@media(min-width:768px) {
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+        font-size: 16px;
+    }
+
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+        font-size: 22px;
+    }
+}
+/* ---------------------------------------------- /*
+ * Form
+/* ---------------------------------------------- */
+
+
+form {
+  width: 80%;
+  margin: 0 auto;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+form .field {
+  width: 100%;
+  position: relative;
+  margin-bottom: 15px;
+}
+form .field label {
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #222;
+  width: 100%;
+  padding: 18px 0;
+  font-size: 1.45em;
+  letter-spacing: 0.075em;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+
+form .field input[type="text"],
+form .field textarea {
+  border: none;
+  background: #E8E9EA;
+  width: 100%;
+  height: 65px;
+  margin: 0;
+  padding: 18px 0;
+  padding-left: 19.5%;
+  color: #222;
+  font-size: 1.5em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+form .field input[type="text"]#msg,
+form .field textarea#msg {
+  font-size: 1em;
+  overflow:hidden;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+form .field input[type="text"]:focus, form .field input[type="text"].focused,
+form .field textarea:focus,
+form .field textarea.focused {
+  outline: none;
+}
+form .field input[type="text"]:focus#msg, form .field input[type="text"].focused#msg,
+form .field textarea:focus#msg,
+form .field textarea.focused#msg {
+  padding-bottom: 150px;
+}
+form .field input[type="text"]:focus + label, form .field input[type="text"].focused + label,
+form .field textarea:focus + label,
+form .field textarea.focused + label {
+  width: 18%;
+  background: #f05f40;
+  color: #222;
+}
+form .field input[type="text"].focused + label,
+form .field textarea.focused + label {
+  color: #f05f40;
+}
+form .field:hover label {
+  width: 18%;
+  background: #222;
+  color: white;
+}
+
+form input[type="submit"] {
+  background: #f05f40;
+  color: white;
+  -webkit-appearance: none;
+  border: none;
+  text-transform: uppercase;
+  position: relative;
+  padding: 13px 50px;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+form input[type="submit"]:hover {
+  background: #222;
+  color: #f05f40;
+}
+form input[type="submit"]:focus {
+  outline: none;
+  background: #cd6302;
+}
 
 /* ---------------------------------------------- /*
  * FOOTER
@@ -541,5 +681,6 @@ body {
 
 .social-links a:hover {
 	border: 1px solid rgba(255, 255, 255, .5);
-	color: rgba(255, 255, 255, .8);
+	color: rgba(240, 95, 64, .8);
+	border: 1px solid rgba(240, 95, 64, .8);
 }

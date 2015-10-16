@@ -249,10 +249,6 @@ header .header-content .header-content-inner p {
     margin-bottom: 0;
 }
 
-.call-to-action h2 {
-    margin: 0 auto 20px;
-}
-
 .text-primary {
     color: #f05f40;
 }
@@ -411,18 +407,18 @@ body {
 /* ---------------------------------------------- */
 
 .iconbox {
-	background: #fff;
+	background: #222;
 	border-bottom: 1px solid #d4d4d4;
 	text-align: center;
 	padding: 40px 20px;
 	margin: 0 0 20px;
-	color: #222;
+	color: #fff;
 }
 
 .iconbox-icon {
 	margin: 0 0 15px;
 	font-size: 32px;
-	color: #222;
+	color: #f05f40;
 }
 
 .iconbox-title {
@@ -521,112 +517,10 @@ body {
     }
 }
 /* ---------------------------------------------- /*
- * Form
+ * Contacts
 /* ---------------------------------------------- */
-
-
-form {
-  width: 80%;
-  margin: 0 auto;
-  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-}
-form .field {
-  width: 100%;
-  position: relative;
-  margin-bottom: 15px;
-}
-form .field label {
-  text-transform: uppercase;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #222;
-  width: 100%;
-  padding: 18px 0;
-  font-size: 1.45em;
-  letter-spacing: 0.075em;
-  -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
-}
-
-form .field input[type="text"],
-form .field textarea {
-  border: none;
-  background: #E8E9EA;
-  width: 100%;
-  height: 65px;
-  margin: 0;
-  padding: 18px 0;
-  padding-left: 19.5%;
-  color: #222;
-  font-size: 1.5em;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-form .field input[type="text"]#msg,
-form .field textarea#msg {
-  font-size: 1em;
-  overflow:hidden;
-  -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
-}
-form .field input[type="text"]:focus, form .field input[type="text"].focused,
-form .field textarea:focus,
-form .field textarea.focused {
-  outline: none;
-}
-form .field input[type="text"]:focus#msg, form .field input[type="text"].focused#msg,
-form .field textarea:focus#msg,
-form .field textarea.focused#msg {
-  padding-bottom: 150px;
-}
-form .field input[type="text"]:focus + label, form .field input[type="text"].focused + label,
-form .field textarea:focus + label,
-form .field textarea.focused + label {
-  width: 18%;
-  background: #f05f40;
-  color: #222;
-}
-form .field input[type="text"].focused + label,
-form .field textarea.focused + label {
-  color: #f05f40;
-}
-form .field:hover label {
-  width: 18%;
-  background: #222;
-  color: white;
-}
-
-form input[type="submit"] {
-  background: #f05f40;
-  color: white;
-  -webkit-appearance: none;
-  border: none;
-  text-transform: uppercase;
-  position: relative;
-  padding: 13px 50px;
-  font-size: 1.4em;
-  letter-spacing: 0.1em;
-  font-weight: 300;
-  -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
-}
-form input[type="submit"]:hover {
-  background: #222;
-  color: #f05f40;
-}
-form input[type="submit"]:focus {
-  outline: none;
-  background: #cd6302;
+.contact-btn-padding{
+	padding-top:50px;
 }
 
 /* ---------------------------------------------- /*
@@ -683,4 +577,7 @@ form input[type="submit"]:focus {
 	border: 1px solid rgba(255, 255, 255, .5);
 	color: rgba(240, 95, 64, .8);
 	border: 1px solid rgba(240, 95, 64, .8);
+}
+.contact-text p{
+	padding:30px 0;
 }

@@ -497,12 +497,12 @@ body {
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name .project-position{
     padding: 0 15px;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category .project-position{
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 600;
@@ -517,7 +517,7 @@ body {
 }
 
 @media(min-width:768px) {
-    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category .project-position{
         font-size: 16px;
     }
 

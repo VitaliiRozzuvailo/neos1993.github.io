@@ -149,7 +149,7 @@ svg {
 }
 .slide:nth-child(1) .slide__bg {
   left: 0;
-  background-image: url("http://i.imgur.com/1HeKcko.jpg");
+  background-image: url("../img/portfolio/1.jpg");
 }
 .slide:nth-child(1) .slide__overlay-path {
   fill: #e99c7e;
@@ -164,14 +164,14 @@ svg {
 }
 .slide:nth-child(2) .slide__bg {
   left: -50%;
-  background-image: url("http://i.imgur.com/YAdjqmQ.jpg");
+  background-image: url("../img/portfolio/2.jpg");
 }
 .slide:nth-child(2) .slide__overlay-path {
-  fill: #e1ccae;
+  fill: #31cc56;
 }
 @media (max-width: 991px) {
   .slide:nth-child(2) .slide__text {
-    background-color: rgba(225, 204, 174, 0.8);
+    background-color: rgba(49, 204, 86, 0.8);
   }
 }
 .slide:nth-child(3) {
@@ -179,7 +179,7 @@ svg {
 }
 .slide:nth-child(3) .slide__bg {
   left: -100%;
-  background-image: url("http://i.imgur.com/3pu2X8D.jpg");
+  background-image: url("../img/portfolio/3.jpg");
 }
 .slide:nth-child(3) .slide__overlay-path {
   fill: #adc5cd;
@@ -194,14 +194,46 @@ svg {
 }
 .slide:nth-child(4) .slide__bg {
   left: -150%;
-  background-image: url("http://i.imgur.com/njcLNVE.jpg");
+  background-image: url("../img/portfolio/4.jpg");
 }
 .slide:nth-child(4) .slide__overlay-path {
-  fill: #cbc6c3;
+  fill: #e1ccae;
 }
 @media (max-width: 991px) {
   .slide:nth-child(4) .slide__text {
     background-color: rgba(203, 198, 195, 0.8);
+  }
+}
+
+.slide:nth-child(5) {
+  left: 400%;
+}
+.slide:nth-child(5) .slide__bg {
+  left: -200%;
+  background-image: url("../img/portfolio/5.jpg");
+}
+.slide:nth-child(5) .slide__overlay-path {
+  fill: #cbc6c3;
+}
+@media (max-width: 991px) {
+  .slide:nth-child(5) .slide__text {
+    background-color:rgba(225, 204, 174, 0.8);
+  }
+}
+
+.slide:nth-child(6) {
+  left: 500%;
+}
+.slide:nth-child(6) .slide__bg {
+  left: -250%;
+  background-image: url("../img/portfolio/6.jpg");
+}
+.slide:nth-child(6) .slide__overlay-path {
+  fill: #e1ccae;
+}
+@media (max-width: 991px) {
+  .slide:nth-child(6) .slide__text {
+    background-color: rgba(225, 204, 174, 0.8);
   }
 }
 .slide__content {

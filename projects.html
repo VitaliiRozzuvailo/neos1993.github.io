@@ -2,41 +2,75 @@
 <html >
   <head>
     <meta charset="UTF-8">
-    <title>Плавная прокрутка страницы с эффектом параллакса | Демонстрация для сайта RUDEBOX</title>
-    <link rel="stylesheet" href="css/projects_reset.css">
-	<link rel="stylesheet" href="css/projects_style.css">
+    <title>Cлайдер с эффектом параллакса с помощью jQuery | RUDEBOX</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Open+Sans'>
+        <link rel="stylesheet" href="css/projects_style.css">
   </head>
 
-  <body>
-	<div id="controls">
-		<div align=right>
-			<a class="close" title="Закрыть" onclick="goBack()"">&times;</a>
+	<body>
+	<div class="slider-container">
+		<div class="slider-control left inactive"></div>
+		<div class="slider-control right"></div>
+		<ul class="slider-pagi"></ul>
+		<div class="slider">
+			<div class="slide slide-0 active">
+			  <div class="slide__bg"></div>
+			  <div class="slide__content">
+				<svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+				  <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+				</svg>
+				<div class="slide__text">
+				  <h2 class="slide__text-heading">Project Name</h2>
+				  <p class="slide__text-desc">Description</p>
+				  <a class="slide__text-link">Читать далее</a>
+				</div>
+			  </div>
+			</div>
+			<div class="slide slide-1 ">
+			  <div class="slide__bg"></div>
+			  <div class="slide__content">
+				<svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+				  <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+				</svg>
+				<div class="slide__text">
+				   <h2 class="slide__text-heading">Project Name</h2>
+				  <p class="slide__text-desc">Description</p>
+				  <a class="slide__text-link">Читать далее</a>
+				</div>
+			  </div>
+			</div>
+			<div class="slide slide-2">
+			  <div class="slide__bg"></div>
+			  <div class="slide__content">
+				<svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+				  <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+				</svg>
+				<div class="slide__text">
+				   <h2 class="slide__text-heading">Project Name</h2>
+				  <p class="slide__text-desc">Description</p>
+				  <a class="slide__text-link">Читать далее</a>
+				</div>
+			  </div>
+			</div>
+			<div class="slide slide-3">
+			  <div class="slide__bg"></div>
+			  <div class="slide__content">
+				<svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+				  <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+				</svg>
+				<div class="slide__text">
+				   <h2 class="slide__text-heading">Project Name</h2>
+				  <p class="slide__text-desc">Description</p>
+				  <a class="slide__text-link">Читать далее</a>
+				</div>
+			  </div>
+			</div>
 		</div>
 	</div>
-		<div class="container">
-		  <section class="background">
-			<div class="content-wrapper">
-			  <p class="content-title">Project Name</p>
-			  <p class="content-subtitle">Description</p>
-			</div>
-		  </section>
-		 <section class="background">
-			<div class="content-wrapper">
-			  <p class="content-title">Project Name</p>
-			  <p class="content-subtitle">Description</p>
-			</div>
-		  </section>
-		 <section class="background">
-			<div class="content-wrapper">
-			  <p class="content-title">Project Name</p>
-			  <p class="content-subtitle">Description</p>
-			</div>
-		  </section>
-		</div>
-
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js'></script>
-	<script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
-
+	
+	<!--SCRIPT-->
+	<script src="js/jquery.js"></script>
 	<script src="js/projects.js"></script>
-  </body>
+	</body>
 </html>

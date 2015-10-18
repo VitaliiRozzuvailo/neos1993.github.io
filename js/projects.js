@@ -110,5 +110,9 @@ $(document).ready(function() {
     curSlide = $(this).data("page");
     changeSlides();
   });
-  
+ 
 });
+
+  function goBack() {
+    window.history.back();
+}

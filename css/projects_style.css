@@ -149,7 +149,7 @@ svg {
 }
 .slide:nth-child(1) .slide__bg {
   left: 0;
-  background-image: url("../img/portfolio/1.jpg");
+  background-image: url("../img/projects/1.jpg");
 }
 .slide:nth-child(1) .slide__overlay-path {
   fill: #e99c7e;
@@ -164,14 +164,14 @@ svg {
 }
 .slide:nth-child(2) .slide__bg {
   left: -50%;
-  background-image: url("../img/portfolio/2.jpg");
+  background-image: url("../img/projects/2.jpg");
 }
 .slide:nth-child(2) .slide__overlay-path {
-  fill: #31cc56;
+  fill: #adc5cd;
 }
 @media (max-width: 991px) {
   .slide:nth-child(2) .slide__text {
-    background-color: rgba(49, 204, 86, 0.8);
+    background-color: rgba(173, 197, 205, 0.8);
   }
 }
 .slide:nth-child(3) {
@@ -179,10 +179,10 @@ svg {
 }
 .slide:nth-child(3) .slide__bg {
   left: -100%;
-  background-image: url("../img/portfolio/3.jpg");
+  background-image: url("../img/projects/3.jpg");
 }
 .slide:nth-child(3) .slide__overlay-path {
-  fill: #adc5cd;
+  fill: #7dc5ff;
 }
 @media (max-width: 991px) {
   .slide:nth-child(3) .slide__text {
@@ -194,7 +194,7 @@ svg {
 }
 .slide:nth-child(4) .slide__bg {
   left: -150%;
-  background-image: url("../img/portfolio/4.jpg");
+  background-image: url("../img/projects/4.jpg");
 }
 .slide:nth-child(4) .slide__overlay-path {
   fill: #e1ccae;
@@ -210,14 +210,14 @@ svg {
 }
 .slide:nth-child(5) .slide__bg {
   left: -200%;
-  background-image: url("../img/portfolio/5.jpg");
+  background-image: url("../img/projects/5.jpg");
 }
 .slide:nth-child(5) .slide__overlay-path {
-  fill: #cbc6c3;
+  fill: #adc5cd;
 }
 @media (max-width: 991px) {
   .slide:nth-child(5) .slide__text {
-    background-color:rgba(225, 204, 174, 0.8);
+    background-color:rgba(173, 197, 205, 0.8);
   }
 }
 
@@ -226,14 +226,14 @@ svg {
 }
 .slide:nth-child(6) .slide__bg {
   left: -250%;
-  background-image: url("../img/portfolio/6.jpg");
+  background-image: url("../img/projects/6.jpg");
 }
 .slide:nth-child(6) .slide__overlay-path {
-  fill: #e1ccae;
+  fill: #7dc5ff;
 }
 @media (max-width: 991px) {
   .slide:nth-child(6) .slide__text {
-    background-color: rgba(225, 204, 174, 0.8);
+    background-color: rgba(173, 197, 205, 0.8);
   }
 }
 .slide__content {
@@ -294,13 +294,13 @@ svg {
   }
 }
 .slide__text-heading {
-  font-family: "Polar", Helvetica, Arial, sans-serif;
-  font-size: 5rem;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 4rem;
   margin-bottom: 2rem;
 }
 @media (max-width: 991px) {
   .slide__text-heading {
-    line-height: 20rem;
+    line-height: 18rem;
     font-size: 3.5rem;
   }
 }
